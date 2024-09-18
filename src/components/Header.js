@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="bg-blue-600 p-4">
       <nav className="container mx-auto flex justify-between items-center">
-        <h1 className="text-white text-2xl">College Events</h1>
+        <h1 className="text-white text-2xl">SPARX 2K24</h1>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             {isOpen ? '✖' : '☰'}
